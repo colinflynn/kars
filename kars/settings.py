@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')ug=5!nz$1!=^2$nf2%33-%ievsz6ju#s+8a$o3lq$xzh5dlpg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kars-4-kids.herokuapp.com']
 
 # Application definition
 
